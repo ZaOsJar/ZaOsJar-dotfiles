@@ -4,6 +4,7 @@
 # except
 !.gitignore
 !/dwm
+!/nvim
 !/dmenu
 !/picom
 !/neofetch

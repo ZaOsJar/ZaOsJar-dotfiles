@@ -1,0 +1,14 @@
+ViJar - Neovim config by ZaOsJar
+================================
+Pretty clean 
+
+Requirements
+------------
+The plugin manager is packer.nvim, you need to install it following the 
+instructions in their github.
+
+
+Installation
+------------
+Do :PackerSync to clone the plugins. To get the lsps to work, install
+the respective lsps mentioned in ~/.config/lua/ViJar/luasnipcmp.lua.

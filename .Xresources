@@ -54,8 +54,6 @@ XTerm*vt100.translations: #override \n\
 ! ~~~~~~~~~~~~~~~~~~
 ! ## Color Themes ## 
 ! ~~~~~~~~~~~~~~~~~~
-! based on snazzy color theme
-! https://github.com/olstenlarck/urxvt-xterm-snazzy/blob/7c34009a19ade65271e26ef065c678b0fa2abd0d/.Xdefaults
 
 XTerm*title: XTerminal
 
