@@ -1,0 +1,97 @@
+! ## Enable a color supported XTerm ##
+XTerm.termName: xterm-256color
+
+! ## Set xterm window size ##
+! XTerm*VT100.geometry: 130x50
+
+! ## Fix the backspace key
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+
+! ## Set font and fontsize ##
+XTerm*faceName: Hack Nerd Font
+XTerm*faceSize: 11
+
+! VT Font Menu: Unreadable
+XTerm*faceSize1: 8
+! VT Font Menu: Tiny
+XTerm*faceSize2: 10
+! VT Font Menu: Small
+XTerm*faceSize3: 12
+! VT Font Menu: Medium
+XTerm*faceSize4: 16
+! VT Font Menu: Large
+XTerm*faceSize5: 22
+! VT Font Menu: Huge
+XTerm*faceSize6: 24
+
+! ## Scrollbar ##
+XTerm*vt100.scrollBar: false
+
+! Do not scroll when there is new input
+XTerm*scrollTtyOutput: false
+
+! Scrolling by using Shift-PageUp / Shift-PageDown or mousewheel by default ##
+! Lines of output you can scroll back over
+XTerm*saveLines: 15000
+
+! Enable copy/paste hotkeyes (mouse highlight = copy ,  shift+Insert = paste)
+XTerm*selectToClipboard: true
+
+! ## Select text ##
+XTerm*highlightSelection: true
+! Remove trailing spaces
+XTerm*trimSelection: true
+
+! ## Keybindings ##
+XTerm*vt100.translations: #override \n\
+  Ctrl <Key>-: smaller-vt-font() \n\
+  Ctrl <Key>+: larger-vt-font() \n\
+  Ctrl <Key>0: set-vt-font(d) \n\
+  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! ~~~~~~~~~~~~~~~~~~
+! ## Color Themes ## 
+! ~~~~~~~~~~~~~~~~~~
+! based on snazzy color theme
+! https://github.com/olstenlarck/urxvt-xterm-snazzy/blob/7c34009a19ade65271e26ef065c678b0fa2abd0d/.Xdefaults
+
+XTerm*title: XTerminal
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #282C34
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6

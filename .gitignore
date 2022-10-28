@@ -1,0 +1,11 @@
+# ignore everything
+/*
+
+# except
+!.gitignore
+!.Xresources
+!.zprofile
+!.xinitrc
+!.zshrc
+!/.config
+!/.zsh
