@@ -1,4 +1,4 @@
-# .zshrc by ZaOsJar
+# --> .zshrc by ZaOsJar <-- #
 autoload -Uz compinit promptinit
 compinit
 promptinit
@@ -19,7 +19,6 @@ bindkey "^[[1;5D"  backward-word # C-<Left>
 bindkey "^[[1;5C" forward-word # C-<Right>
 bindkey "^[[H" beginning-of-line # <Home>
 bindkey "^[[F" end-of-line # <End>
-
 
 HISTFILE=$HOME/.zsh_history
 SAVEHIST=25000

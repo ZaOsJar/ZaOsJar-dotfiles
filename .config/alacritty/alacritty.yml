@@ -1,0 +1,110 @@
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  position:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: none 
+
+  # The value `0.0` is completely transparent and `1.0` is opaque.
+  opacity: 1.0
+
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  startup_mode: Windowed
+
+  title: Alacritty
+  dynamic_title: true
+
+  # Window class (Linux/BSD only):
+  class:
+    instance: Alacritty
+    general: Alacritty
+scrolling:
+  history: 20000
+  multiplier: 3
+
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+  size: 8.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  save_to_clipboard: false
+
+cursor:
+  style:
+
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Block
+
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: On
+
+  # Vi mode cursor style
+  #
+  # If the vi mode cursor style is `None` or not specified, it will fall back to
+  # the style of the active value of the normal cursor.
+  #
+  # See `cursor.style` for available options.
+  #vi_mode_style: None
+
+  # Cursor blinking interval in milliseconds.
+  blink_interval: 750
+
+  # Specifying '0' will disable timeout for blinking.
+  blink_timeout: 5
+
+  thickness: 0.15
+
+# Live config reload (changes require restart)
+live_config_reload: true
+
+colors:
+  # Default colors
+  primary:
+    background: '0x232323'
+    foreground: '0xa0a0a0'
+
+  # Normal colors
+  normal:
+    black:   '0x303030'
+    red:     '0xd370a3'
+    green:   '0x6d9e3f'
+    yellow:  '0xb58858'
+    blue:    '0x6095c5'
+    magenta: '0xac7bde'
+    cyan:    '0x3ba275'
+    white:   '0xcfcfcf'
+
+  # Bright colors
+  bright:
+    black:   '0x686868'
+    red:     '0xffa7da'
+    green:   '0xa3d572'
+    yellow:  '0xefbd8b'
+    blue:    '0x98cbfe'
+    magenta: '0xe5b0ff'
+    cyan:    '0x75daa9'
+    white:   '0xffffff'
