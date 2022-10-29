@@ -1,1 +1,1 @@
-require('ViJar')
+require('JarNvim')

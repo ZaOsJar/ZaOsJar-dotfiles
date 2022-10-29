@@ -6,9 +6,9 @@ zstyle ':completion:*' menu select
 source "$HOME/.zsh/sudo/sudo.plugin.zsh"
 
 # This will set the default prompt to the redhat theme
-prompt redhat 
+# prompt redhat 
 # PROMPT="[%n@%m %~] "
-
+PROMPT="[Push the commit and change the zsh prompt]$ "
 typeset -g -A key
 
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search

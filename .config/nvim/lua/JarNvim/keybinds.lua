@@ -9,6 +9,7 @@ function map(mode, lhs, rhs, opts)
     vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
+-- Setting Map Leader to space
 vim.g.mapleader = " "
 
 map('n', '<Leader>bc',       ':ls<CR>:bdel<Space>')
@@ -18,7 +19,6 @@ map('n', '<Leader>b.',           '<cmd>:bnext<CR>')
 map('n', '<Leader>bn',              ':badd<Space>')
 
 map('n', '<Leader>q',               '<cmd>:q!<CR>')
-map('n', '<Leader>w',                  ':w<Space>')
 map('n', '<Leader>ww',                    ':w<CR>')
 map('n', '<Leader>c',                        '0d$')
 
@@ -27,14 +27,13 @@ map('n', '<Leader>t.',         '<cmd>:tabnext<CR>')
 map('n', '<Leader>t,',         '<cmd>:tabprev<CR>')
 map('n', '<Leader>tn',          '<cmd>:tabnew<CR>')
 
--- Remapping of exiting terminal mode
+-- Exiting terminal mode with <C-n>
 map('t', '<C-n>',                '<C-Bslash><C-n>')
 
 -- NERDTreee
 
 -- map('n', '<Leader>ntt', '<cmd>:NERDTreeToggle<CR>')
 -- map('n', '<Leader>ntf',  '<cmd>:NERDTreeFocus<CR>')
-
 
 -- Telescope
 
