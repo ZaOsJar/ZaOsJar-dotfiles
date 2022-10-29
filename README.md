@@ -1,5 +1,7 @@
 
-<h1 id="zaosjar-dotfiles">ZaOsJar-dotfiles</h1>
+<h1 align="center" id="zaosjar-dotfiles">ZaOsJar-dotfiles</h1>
+<p>These are my dotfiles, feel free to clone this repo and use the configs which I have here.</p>
+<br>
 <h2 id="my-dotfiles-include-configs-for-">My dotfiles include configs for:</h2>
 <ul>
 <li><strong>General Configs</strong><ul>
