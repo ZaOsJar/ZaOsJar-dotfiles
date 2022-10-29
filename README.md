@@ -1,25 +1,17 @@
+# ZaOsJar-dotfiles
 
-<h1 align="center" id="zaosjar-dotfiles">ZaOsJar-dotfiles</h1>
-<p>These are my dotfiles, feel free to clone this repo and use the configs which I have here.</p>
-<br>
-<h2 id="my-dotfiles-include-configs-for-">My dotfiles include configs for:</h2>
-<ul>
-<li><strong>General Configs</strong><ul>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/nvim"><code>Neovim</code></a></li>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/picom"><code>Picom</code></a></li>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.zshrc"><code>Zsh</code></a></li>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.zprofile"><code>ZProfile</code></a></li>
-</ul>
-</li>
-<li><strong>Suckless</strong><ul>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/dmenu"><code>DMenu</code></a></li>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/dwm"><code>Dwm</code></a></li>
-</ul>
-</li>
-<li><strong>X11</strong><ul>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.Xresources"><code>XResources</code></a></li>
-<li><a href="https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.xinitrc"><code>StartX</code></a></li>
-</ul>
-</li>
-</ul>
+These are my dotfiles, feel free to clone this repo and use the configs which I have here.
 
+## My dotfiles include configs for:
+
+- **General Configs**
+  - [Neovim](https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/nvim)
+  - [Picom](https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/picom)
+  - [Zsh](https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.zshrc)
+  - [ZProfile](https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.zprofile)
+- **Suckless**
+  - [DMenu](https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/dmenu)
+  - [Dwm](https://github.com/ZaOsJar/ZaOsJar-dotfiles/tree/main/.config/dwm)
+- **X11**
+  - [XResources](https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.Xresources)
+  - [StartX](https://github.com/ZaOsJar/ZaOsJar-dotfiles/blob/main/.xinitrc)
