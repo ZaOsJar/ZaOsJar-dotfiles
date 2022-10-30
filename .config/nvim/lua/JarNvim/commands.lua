@@ -1,7 +1,9 @@
 --> Vimscript commands <--
 
 -- Setting the colorscheme
-vim.cmd [[silent! colorscheme onedark]]
+vim.cmd [[silent! colorscheme onedarker]]
+-- making the tilda signs at the end of the buffer noticable in dark themes
+vim.cmd [[silent! highlight EndOfBuffer guifg=#999999]]
 -- Turning off the numbers for the neovim terminal
 vim.cmd [[autocmd TermOpen * setlocal nonumber norelativenumber]]
 -- Making the neovim clipboard the same as the system clipboard

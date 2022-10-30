@@ -6,9 +6,11 @@ zstyle ':completion:*' menu select
 source "$HOME/.zsh/sudo/sudo.plugin.zsh"
 
 # This will set the default prompt to the redhat theme
-# prompt redhat 
+prompt redhat 
+
 # PROMPT="[%n@%m %~] "
-PROMPT="[Push the commit and change the zsh prompt]$ "
+# PROMPT="[Push the commit and change the zsh prompt]$ "
+
 typeset -g -A key
 
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
@@ -21,15 +23,19 @@ bindkey "^[[H" beginning-of-line # <Home>
 bindkey "^[[F" end-of-line # <End>
 
 HISTFILE=$HOME/.zsh_history
-SAVEHIST=25000
+SAVEHIST=20420
 
 alias pacdate='paru -Syuu --noconfirm'
 alias pacclean='sudo paccache -rk0'
-alias ls='exa -a --icons --color=auto --group-directories-first'
-alias la='exa -alh --icons --color=auto --group-directories-first'
+alias ls='exa --icons --color=auto --group-directories-first'
+alias ll='exa -lh --icons --color=auto --group-directories-first'
+alias lah='exa -alh --icons --color=auto --group-directories-first'
+
 alias vi='nvim'
 
 export EDITOR='nvim'
 export VISUAL='nvim'
-export PATH=~/.local/bin:$PATH
+export TERMINAL='xterm'
+
 export ZDOTDIR=$HOME
+export PATH=~/.local/bin:$PATH

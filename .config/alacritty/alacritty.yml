@@ -8,7 +8,9 @@ window:
   padding:
     x: 0
     y: 0
+
   # Values for `decorations`:
+  #
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
   decorations: none 
@@ -17,6 +19,7 @@ window:
   opacity: 1.0
 
   # Values for `startup_mode`:
+  #
   #   - Windowed
   #   - Maximized
   #   - Fullscreen
@@ -29,6 +32,8 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
+
+
 scrolling:
   history: 20000
   multiplier: 3
@@ -48,14 +53,15 @@ font:
 
 cursor:
   style:
-
     # Values for `shape`:
+    #
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
     shape: Block
 
     # Values for `blinking`:
+    #
     #   - Never: Prevent the cursor from ever blinking
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
@@ -68,7 +74,7 @@ cursor:
   # the style of the active value of the normal cursor.
   #
   # See `cursor.style` for available options.
-  #vi_mode_style: None
+  vi_mode_style: None
 
   # Cursor blinking interval in milliseconds.
   blink_interval: 750

@@ -25,7 +25,7 @@ map('n', '<Leader>c',                        '0d$')
 map('n', '<Leader>tc',        '<cmd>:tabclose<CR>')
 map('n', '<Leader>t.',         '<cmd>:tabnext<CR>')
 map('n', '<Leader>t,',         '<cmd>:tabprev<CR>')
-map('n', '<Leader>tn',          '<cmd>:tabnew<CR>')
+map('n', '<Leader>tn',            ':tabnew<Space>')
 
 -- Exiting terminal mode with <C-n>
 map('t', '<C-n>',                '<C-Bslash><C-n>')
@@ -42,4 +42,3 @@ map('t', '<C-n>',                '<C-Bslash><C-n>')
 --vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 --vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 --vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
-

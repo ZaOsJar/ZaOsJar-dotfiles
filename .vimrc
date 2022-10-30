@@ -1,8 +1,11 @@
+" --> .vimrc by ZaOsJar <--
 call plug#begin()
+
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+
 call plug#end()
 
 syntax on
@@ -17,8 +20,8 @@ set relativenumber
 set path=+=**
 set number
 
-set noswapfile
 set encoding=UTF-8
+set noswapfile
 
 set shiftwidth=4
 set expandtab
