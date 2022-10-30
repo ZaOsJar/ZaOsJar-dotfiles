@@ -1,2 +1,14 @@
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -2%
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +2%
+XF86MonBrightnessDown
+    xbacklight -dec 5%
+XF86MonBrightnessUp
+    xbacklight -inc 5%
+XF86Launch1
+    rofi -show drun
+XF86AudioMute
+    pactl set-sink-volume 0 0%
 Print
     flameshot gui
