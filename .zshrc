@@ -27,9 +27,9 @@ SAVEHIST=20420
 
 alias pacdate='paru -Syuu --noconfirm'
 alias pacclean='sudo paccache -rk0'
-alias ls='exa --icons --color=auto --group-directories-first'
-alias ll='exa -lh --icons --color=auto --group-directories-first'
-alias lah='exa -alh --icons --color=auto --group-directories-first'
+alias ls='ls'
+alias ll='ls -l'
+alias lah='ls -lah'
 
 alias vi='nvim'
 

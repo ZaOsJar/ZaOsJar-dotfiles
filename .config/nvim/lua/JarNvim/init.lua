@@ -1,10 +1,9 @@
 --> Neovim config by ZaOsJar <--
+require('nvim-surround')
 require('JarNvim/plugins')
 require('JarNvim/options')
 require('JarNvim/commands')
 require('JarNvim/keybinds')
-require('JarNvim/luasnipcmp')
-require('nvim-surround')
 require('nvim-treesitter.configs').setup {
   -- A list of parser names, or "all"
   ensure_installed = { 
