@@ -5,6 +5,7 @@
 !.gitignore
 !/dwm
 !/nvim
+!/dunst
 !/dmenu
 !/picom
 !/sxhkd
