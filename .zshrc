@@ -27,11 +27,11 @@ SAVEHIST=20420
 
 alias pacdate='paru -Syuu --noconfirm'
 alias pacclean='sudo paccache -rk0'
-alias ls='ls'
-alias ll='ls -l'
 alias lah='ls -lah'
+alias ls='ls'
 
-alias vi='nvim'
+# alias screenkey='screenkey --persist -s small -M'
+alias screenkey='screenkey --opacity 0.7 -s small -M'
 
 export EDITOR='nvim'
 export VISUAL='nvim'
