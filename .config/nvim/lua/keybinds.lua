@@ -29,16 +29,3 @@ map('n', '<Leader>tn',            ':tabnew<Space>')
 
 -- Exiting terminal mode with <C-n>
 map('t', '<C-n>',                '<C-Bslash><C-n>')
-
--- NERDTreee
-
--- map('n', '<Leader>ntt', '<cmd>:NERDTreeToggle<CR>')
--- map('n', '<Leader>ntf',  '<cmd>:NERDTreeFocus<CR>')
-
--- Telescope
-
---local builtin = require('telescope.builtin')
---vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
---vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
---vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
---vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
