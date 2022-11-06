@@ -3,7 +3,7 @@ while true; do
     sleep 1m
 done &
 
-feh --no-fehbg --bg-fill $HOME/Pictures/wallpapers/0064.jpg &
+feh --no-fehbg --bg-fill $HOME/Pictures/wallpapers/0071.jpg &
 xrdb -merge $HOME/.Xresources &
 xset r rate 225 32 & # makes the key input more responsive
 xbacklight -set 70 & # laptop specific function
