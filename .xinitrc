@@ -6,5 +6,6 @@ while true; do
     sleep 1m
 done &
 
-./.local/bin/autostart.sh &
+xscreensaver &
+-- ./.local/bin/autostart.sh &
 dwm

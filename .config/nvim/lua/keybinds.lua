@@ -19,7 +19,7 @@ map('n', '<Leader>b.',           '<cmd>:bnext<CR>')
 map('n', '<Leader>bn',              ':badd<Space>')
 
 map('n', '<Leader>q',               '<cmd>:q!<CR>')
-map('n', '<Leader>ww',                    ':w<CR>')
+map('n', '<Leader>s',                    ':w!<CR>')
 map('n', '<Leader>c',                        '0d$')
 
 map('n', '<Leader>tc',        '<cmd>:tabclose<CR>')

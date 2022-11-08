@@ -10,7 +10,7 @@ XTerm.ttyModes: erase ^?
 
 ! ## Set font and fontsize ##
 XTerm*faceName: Hack Nerd Font
-XTerm*faceSize: 11
+XTerm*faceSize: 10
 
 ! VT Font Menu: Unreadable
 XTerm*faceSize1: 8

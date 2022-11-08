@@ -74,15 +74,15 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["awesome-vim-colorschemes"] = {
+  ["deoplete.nvim"] = {
     loaded = true,
-    path = "/home/gus/.local/share/nvim/site/pack/packer/start/awesome-vim-colorschemes",
-    url = "https://github.com/rafi/awesome-vim-colorschemes"
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/deoplete.nvim",
+    url = "https://github.com/Shougo/deoplete.nvim"
   },
-  ["coc.nvim"] = {
+  ["jellybeans.vim"] = {
     loaded = true,
-    path = "/home/gus/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
+    url = "https://github.com/nanotech/jellybeans.vim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -99,25 +99,50 @@ _G.packer_plugins = {
     path = "/home/gus/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["onedarker.nvim"] = {
+  ["nvim-yarp"] = {
     loaded = true,
-    path = "/home/gus/.local/share/nvim/site/pack/packer/start/onedarker.nvim",
-    url = "https://github.com/LunarVim/onedarker.nvim"
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/nvim-yarp",
+    url = "https://github.com/roxma/nvim-yarp"
+  },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/gus/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ultisnips = {
+    loaded = true,
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/gus/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-hug-neovim-rpc"] = {
+    loaded = true,
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/vim-hug-neovim-rpc",
+    url = "https://github.com/roxma/vim-hug-neovim-rpc"
+  },
   ["vim-snippets"] = {
     loaded = true,
     path = "/home/gus/.local/share/nvim/site/pack/packer/start/vim-snippets",
     url = "https://github.com/honza/vim-snippets"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/gus/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
