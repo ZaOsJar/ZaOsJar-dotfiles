@@ -27,5 +27,6 @@ map('n', '<Leader>t.',         '<cmd>:tabnext<CR>')
 map('n', '<Leader>t,',         '<cmd>:tabprev<CR>')
 map('n', '<Leader>tn',            ':tabnew<Space>')
 
--- Exiting terminal mode with <C-n>
-map('t', '<C-n>',                '<C-Bslash><C-n>')
+-- Terminal Mode
+map('n', '<C-t>n',             '<cmd>:split<CR><C-w><C-w>:term<CR>i')
+map('t', '<C-t>mn',             '<C-Bslash><C-n>')

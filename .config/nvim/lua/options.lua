@@ -49,6 +49,10 @@ let g:deoplete#enable_at_startup = 1
 
 inoremap <silent><expr><Tab> pumvisible() ? "\<c-n>" : "\<Tab>"
 inoremap <silent><expr><s-Tab> pumvisible() ? "\<c-p>" : "\<S-Tab>"
+
+augroup myterm | au!
+    au TermOpen * if &buftype ==# 'terminal' | resize 20 | vert resize 50 | endif
+augroup end
 ]]
 
 -- vim.g.UltiSnipsExpandTrigger="<Cr>"

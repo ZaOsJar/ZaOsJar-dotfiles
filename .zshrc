@@ -25,13 +25,15 @@ bindkey "^[[F" end-of-line # <End>
 HISTFILE=$HOME/.zsh_history
 SAVEHIST=20420
 
-alias pacdate='paru -Syuu --noconfirm'
+alias pacsearch='sudo pacman -Ss'
 alias pacclean='sudo paccache -rk0'
+alias pacdate='paru -Syuu --noconfirm'
+
 alias lah='ls -lah'
 alias ls='ls'
 
 # alias screenkey='screenkey --persist -s small -M'
-alias screenkey='screenkey --opacity 0.7 -s small -M'
+alias screenkey='screenkey --opacity 0.7 -s small'
 
 export EDITOR='nvim'
 export VISUAL='nvim'

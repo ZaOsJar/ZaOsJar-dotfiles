@@ -7,5 +7,5 @@ while true; do
 done &
 
 xscreensaver &
--- ./.local/bin/autostart.sh &
+# ./.local/bin/autostart.sh &
 dwm
